@@ -1,0 +1,50 @@
+<!-- Se tiene como base el siguiente ejercicio que cambia el color de fondo de un elemento de
+HTML al hacerle click (3 Puntos)
+<div id="ele1"> hello </div>
+<script>
+function pintar(){
+ele.style.backgroundColor = 'yellow'
+}
+const ele = document.getElementById("ele1")
+ele.addEventListener("click", pintar);
+</script> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pintar fondo</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+<h1>Desafío 3 - Funciones</h1>
+    <p>
+        En este apartado se está resolviendo los puntos 2.1, 2.2, 3.1 y 3.2 del desafío.
+       
+    </p>
+    <div class="contenedor">
+    <div id="ele1" class="fondo1"> hello </div>
+    <div id="ele2" class="fondo2"> hello2 </div>
+    <div id="ele3" class="fondo3"> hello3 </div>
+    <div id="ele4" class="fondo4"> hello4 </div>
+    </div>
+
+
+    <p>
+        En este apartado se está resolviendo el puntos 2.3 del desafío.
+       
+    </p>
+    <div class="contenedor">
+    <div id="ele5" class="fondo5" onclick="pintar2('yellow')">Cambia a color amarillo
+    
+    </div>
+
+
+    
+    </div>
+    
+
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
